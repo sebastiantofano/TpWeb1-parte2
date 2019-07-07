@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Personalización</title>
+</head>
+<body>
+    <header>
+            <section class="flex-container" id="header">
+                <div class="flex-item">
+                    <div class="logo">
+                        <a href="index.html">LOGO</a> 
+                    </div>
+                </div>
+                <div class="flex-item" id="buscador">
+                    
+                        <form action="">
+                            <input id="caja-buscador" list="data" type="text" placeholder="Busqueda..."/>
+                            <datalist id="data">
+                                    <option value="opcion 1"></option>
+                                    <option value="opcion 2"></option>
+                                    <option value="opcion 3"></option>
+                                    <option value="opcion 4"></option>
+                                    <option value="opcion 5"></option>
+                                    <option value="opcion 6"></option>  
+                            </datalist>
+                            <i id="icono-lupa" class="fas fa-search "></i>
+                        </form>
+                </div>
+                <div class="flex-item">
+                    <div class="contenedor-icono">
+                        <div id="icono">
+                            <img src="img/glass.png" alt="">
+                        </div>
+                        <div class="notificacion">
+                            5
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section> -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="formularioInscripcion.html">Inscripción
+                            <!-- <i  class="far fa-edit "></i> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="personalizacionInvitacionEvento.html">Invitación
+                            <!-- <i class="far fa-hand-point-right "></i> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resumenEntradasCompradas.html">Resumen
+                            <!-- <i class="far fa-check-circle "> </i> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="detalleEvento.html">Evento
+                            <!-- <i class="far fa-calendar-alt "> </i> -->
+                        </a>
+                    </li>
+                    <li>                    
+                        <a href="contacto.html">Contacto
+                            <!-- <i class="far fa-envelope"></i> -->
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- </section> -->
+        
+    </header>
+    <main>
+        <section id="section-personalizacion">
+            <article id="previsualizacion-evento">
+                <div id="previsualizacion-evento-contenedor">
+                    <h2 id="previsualizacion-evento-titulo">Título</h2>
+                    <p id="previsualizacion-evento-fecha">10 de junio de 2019, 18hs.</p>
+                </div>
+            </article>
+            <article id="personalizacion-invitacion">
+                    <h2 >Personalización de invitación</h2>
+                    <input type="text" id="evento-titulo-input" placeholder="Titulo Evento"/>
+                    <h4>Color</h4>
+                    <div class="contenedor-colores">
+                        <div class="opcion-color">
+                            <label for="circulo1">
+                                <div class="circulo-color"></div>
+                            </label>
+                            <input type="radio" name="color" id="circulo1">
+                        </div>
+                        <div class="opcion-color">
+                            <label for="circulo2">
+                                <div class="circulo-color"></div>
+                            </label>
+                            <input type="radio" name="color" id="circulo2">
+                        </div>
+                        <div class="opcion-color">
+                            <label for="circulo3">
+                                <div class="circulo-color"></div>
+                            </label>
+                            <input type="radio" name="color" id="circulo3">
+                        </div>
+                        <div class="opcion-color">
+                            <label for="circulo4">
+                                <div class="circulo-color"></div>
+                            </label>
+                            <input type="radio" name="color" id="circulo4">
+                        </div>
+                        <div class="opcion-color">
+                            <label for="circulo5">
+                                <div class="circulo-color"></div>
+                            </label>
+                            <input type="radio" name="color" id="circulo5">
+                        </div>
+                    </div>
+                    <h4>Tamaño de fuente</h4>
+                    <div class="contenedor-tamanio-fuente">
+                        <div class="opcion-tamanio-fuente">
+                            <label for="fuente1">
+                                <p>20px</p>
+                            </label>
+                            <input type="radio" name="tamanio-fuente" id="fuente1">
+                        </div>
+                        <div class="opcion-tamanio-fuente">
+                            <label for="fuente2">
+                                <p>22px</p>
+                            </label>
+                            <input type="radio" name="tamanio-fuente" id="fuente2">
+                        </div>
+                        <div class="opcion-tamanio-fuente">
+                            <label for="fuente3">
+                                <p>24px</p>
+                            </label>
+                            <input type="radio" name="tamanio-fuente" id="fuente3">
+                        </div>
+                        <div class="opcion-tamanio-fuente">
+                            <label for="fuente4">
+                                <p>26px</p>
+                            </label>
+                            <input type="radio" name="tamanio-fuente" id="fuente4">
+                        </div>
+                        <div class="opcion-tamanio-fuente">
+                            <label for="fuente5">
+                                <p>28px</p>
+                            </label>
+                            <input type="radio" name="tamanio-fuente" id="fuente5">
+                        </div>
+                    </div>
+                    <input type="text" id="evento-fecha-input" placeholder="Fecha y hora"/>
+                    <h4>Ubicación</h4>
+                    <div class="contenedor-ubicacion">
+                        <div class="opcion-ubicacion">
+                            <label for="ubicacion1">
+                                <div class="caja-ubicacion">
+                                    <div class="caja-ubicacion-posicion"></div>
+                                </div>
+                            </label>
+                            <input type="radio" name="ubicacion" id="ubicacion1"/>
+                        </div>
+                        <div class="opcion-ubicacion">
+                            <label for="ubicacion2">
+                                <div class="caja-ubicacion">
+                                    <div class="caja-ubicacion-posicion"></div>
+                                </div>
+                            </label>
+                            <input type="radio" name="ubicacion" id="ubicacion2"/>
+                        </div>
+                            <div class="opcion-ubicacion">
+                                <label for="ubicacion3">
+                                    <div class="caja-ubicacion">
+                                        <div class="caja-ubicacion-posicion"></div>
+                                    </div>
+                                </label>
+                                <input type="radio" name="ubicacion" id="ubicacion3"/>
+                            </div>
+                                <div class="opcion-ubicacion">
+                                    <label for="ubicacion4">
+                                        <div class="caja-ubicacion">
+                                            <div class="caja-ubicacion-posicion"></div>
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="ubicacion" id="ubicacion4"/>
+                                </div>
+                    </div>
+                    <h4>Fondo</h4>
+                    <div class="contenedor-fondo">
+                        <div class="opcion-fondo">
+                            <label for="fondo1">
+                                <div class="caja-fondo"></div>
+                            </label>
+                            <input type="radio" name="fondo" id="fondo1"/>
+                        </div>
+                        <div class="opcion-fondo">
+                            <label for="fondo2">
+                                <div class="caja-fondo"></div>
+                            </label>
+                            <input type="radio" name="fondo" id="fondo2"/>
+                        </div>    
+                        <div class="opcion-fondo">
+                            <label for="fondo3">
+                                <div class="caja-fondo"></div>
+                            </label>
+                            <input type="radio" name="fondo" id="fondo3"/>
+                        </div>
+                        <div class="opcion-fondo">
+                            <label for="fondo4">
+                                <div class="caja-fondo"></div>
+                            </label>
+                            <input type="radio" name="fondo" id="fondo4"/>
+                        </div>  
+                        <div class="opcion-fondo">
+                            <label for="fondo5">
+                                <div class="caja-fondo"></div>
+                            </label>
+                            <input type="radio" name="fondo" id="fondo5"/>
+                        </div>                  
+                        
+                    </div>
+                    <div class="contenedor-boton">
+                        <button class="btn">Confirmar</button>
+                    </div>
+                    
+            </article>
+        </section>
+    </main>
+
+    <footer>
+            <section class="footer">
+                <div class=" col-footer">
+                        <h3>Integrantes del grupo</h3>
+                    <div class="flex-container datos-grupos ">
+                            
+                            <ul>
+                                <li>Sebastian Leonel Tofano</li>
+                                <li>Emiliano Nicolas Diaz Velar</li>
+                                <li>Francisco Javier Terranova</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class=" col-footer">
+                    <h3>Opciones</h3>
+                    <div class="flex-container menu-inferior">
+                        <ul>
+                            <li><a href="formularioInscripcion.html"><i class="far fa-edit "></i>Inscripción</a></li>
+                            <li><a href="personalizacionInvitacionEvento.html"><i class="far fa-hand-point-right "></i>Invitación</a></li>
+                            <li><a href="resumenEntradasCompradas.html"><i class="far fa-check-circle "></i>Resumen</a></li>
+                            <li><a href="detalleEvento.html"><i class="far fa-calendar-alt "></i>Evento</a></li>
+                            <li><a href="contacto.html"><i class="far fa-envelope"></i>Contacto</a></li>
+                        </ul>      
+                    </div>
+                </div>
+                <div class=" col-footer">
+                    <h3>Redes Sociales</h3>
+                    <div class=" redes ">
+                        <a href="www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i>
+    
+                        </a>
+                        <a href="www.youtube.com" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+    </footer>
+</body>
+</html>

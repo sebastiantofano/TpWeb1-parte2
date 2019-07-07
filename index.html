@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+    <!-- jQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <section class="flex-container" id="header">
+            <div class="flex-item">
+                <div class="logo">
+                    <a href="index.html">LOGO</a> 
+                </div>
+            </div>
+            <div class="flex-item" id="buscador">
+                
+                    <form action="">
+                        <input id="caja-buscador" list="data" type="text" placeholder="Busqueda..."/>
+                        <datalist id="data">
+                                <option value="opcion 1"></option>
+                                <option value="opcion 2"></option>
+                                <option value="opcion 3"></option>
+                                <option value="opcion 4"></option>
+                                <option value="opcion 5"></option>
+                                <option value="opcion 6"></option>  
+                        </datalist>
+                        <i id="icono-lupa" class="fas fa-search "></i>
+                    </form>   
+            </div>
+            <div class="flex-item">
+                <div class="contenedor-icono">
+                    <div id="icono">
+                            <img src="img/glass.png" alt="">
+                    </div>
+                    <div class="notificacion">
+                        5
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+        </section>
+        <!-- <section> -->
+        <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="formularioInscripcion.html">Inscripción
+                        <!-- <i  class="far fa-edit "></i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="personalizacionInvitacionEvento.html">Invitación
+                        <!-- <i class="far fa-hand-point-right "></i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="resumenEntradasCompradas.html">Resumen
+                        <!-- <i class="far fa-check-circle "> </i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="detalleEvento.html">Evento
+                        <!-- <i class="far fa-calendar-alt "> </i> -->
+                    </a>
+                </li>
+                <li>                    
+                    <a href="contacto.html">Contacto
+                        <!-- <i class="far fa-envelope"></i> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- </section> -->
+    </header>
+    <main>
+        <section class="slider">
+            
+        </section>
+        <section class="pasos">
+            <article>
+                Haga click en el botón INSCRIBIRSE del evento que prefiera.
+            </article>
+            <article>
+                Ingrese los datos de las personas que asistirán al evento y luego personalice la invitación del evento.
+            </article>
+            <article>
+                Vaya al resumen para modificar o finalizar sus compras.
+            </article>
+        </section>
+
+        
+        <section class="eventos">
+            <h3 class="text-center">Eventos destacados</h3>
+            <div class="contenedor-eventos">
+                <article class="caja-evento">
+                    
+                    <div class="foto-evento">
+                        
+                        <div class="efecto-hover">
+                                
+                            <div class="icono-detalles">
+                                <i class="fas fa-info-circle"></i>
+                                <p>+ Info</p> 
+                            </div>
+                        </div>
+                        <img src="img/eventos/ev1.jpg" alt="">
+                    </div>
+                    <div class="info-evento">
+                        <div class="fecha-evento">
+                            <p>JUN</p>
+                            <p>9 </p>
+                        </div>
+                        <div class="datos-evento">
+                            <p class="nombre-evento">Degustación de Vino</p>
+                            <p class="detalles-evento">[Ver Detalles]</p>
+                            <div class="comprar">
+                                <button class="btn btn-comprar">
+                                    <i class="fas fa-shopping-cart"></i> 
+                                    Comprar Entrada
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+                <article class="caja-evento">
+                    
+                        <div class="foto-evento">
+                            
+                            <div class="efecto-hover">
+                                    
+                                <div class="icono-detalles">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>+ Info</p> 
+                                </div>
+                            </div>
+                            <img src="img/eventos/ev2.jpg" alt="">
+                        </div>
+                        <div class="info-evento">
+                            <div class="fecha-evento">
+                                <p>JUN</p>
+                                <p>9 </p>
+                            </div>
+                            <div class="datos-evento">
+                                <p class="nombre-evento">Degustación de Vino</p>
+                                <p class="detalles-evento">[Ver Detalles]</p>
+                                <div class="comprar">
+                                    <button class="btn btn-comprar">
+                                        <i class="fas fa-shopping-cart"></i> 
+                                        Comprar Entrada
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </article>
+                <article class="caja-evento">
+                
+                        <div class="foto-evento">
+                            
+                            <div class="efecto-hover">
+                                    
+                                <div class="icono-detalles">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>+ Info</p> 
+                                </div>
+                            </div>
+                            <img src="img/eventos/ev3.jpg" alt="">
+                        </div>
+                        <div class="info-evento">
+                            <div class="fecha-evento">
+                                <p>JUN</p>
+                                <p>9 </p>
+                            </div>
+                            <div class="datos-evento">
+                                <p class="nombre-evento">Degustación de Vino</p>
+                                <p class="detalles-evento">[Ver Detalles]</p>
+                                <div class="comprar">
+                                    <button class="btn btn-comprar">
+                                        <i class="fas fa-shopping-cart"></i> 
+                                        Comprar Entrada
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                </article>
+                <article class="caja-evento">
+                
+                    <div class="foto-evento">
+                        
+                        <div class="efecto-hover">
+                                
+                            <div class="icono-detalles">
+                                <i class="fas fa-info-circle"></i>
+                                <p>+ Info</p> 
+                            </div>
+                        </div>
+                        <img src="img/eventos/ev4.jpg" alt="">
+                    </div>
+                    <div class="info-evento">
+                        <div class="fecha-evento">
+                            <p>JUN</p>
+                            <p>9 </p>
+                        </div>
+                        <div class="datos-evento">
+                            <p class="nombre-evento">Degustación de Vino</p>
+                            <p class="detalles-evento">[Ver Detalles]</p>
+                            <div class="comprar">
+                                <button class="btn btn-comprar">
+                                    <i class="fas fa-shopping-cart"></i> 
+                                    Comprar Entrada
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+                <article class="caja-evento">
+                
+                    <div class="foto-evento">
+                        
+                        <div class="efecto-hover">
+                                
+                            <div class="icono-detalles">
+                                <i class="fas fa-info-circle"></i>
+                                <p>+ Info</p> 
+                            </div>
+                        </div>
+                        <img src="img/eventos/ev5.jpg" alt="">
+                    </div>
+                    <div class="info-evento">
+                        <div class="fecha-evento">
+                            <p>JUN</p>
+                            <p>9 </p>
+                        </div>
+                        <div class="datos-evento">
+                            <p class="nombre-evento">Degustación de Vino</p>
+                            <p class="detalles-evento">[Ver Detalles]</p>
+                            <div class="comprar">
+                                <button class="btn btn-comprar">
+                                    <i class="fas fa-shopping-cart"></i> 
+                                    Comprar Entrada
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+                <article class="caja-evento">
+                
+                    <div class="foto-evento">
+                        
+                        <div class="efecto-hover">
+                                
+                            <div class="icono-detalles">
+                                <i class="fas fa-info-circle"></i>
+                                <p>+ Info</p> 
+                            </div>
+                        </div>
+                        <img src="img/eventos/ev6.jpg" alt="">
+                    </div>
+                    <div class="info-evento">
+                        <div class="fecha-evento">
+                            <p>JUN</p>
+                            <p>9 </p>
+                        </div>
+                        <div class="datos-evento">
+                            <p class="nombre-evento">Degustación de Vino</p>
+                            <p class="detalles-evento">[Ver Detalles]</p>
+                            <div class="comprar">
+                                <button class="btn btn-comprar">
+                                    <i class="fas fa-shopping-cart"></i> 
+                                    Comprar Entrada
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+                
+            </div>
+
+        </section>
+
+        <section class="medios-pago">
+            <h3>Medios de pago</h3>
+            <div class="contenedor-tarjetas">
+                <div class="tarjetas" id="visa"></div>
+                <div class="tarjetas" id="mastercard"></div>
+                <div class="tarjetas" id="american"></div>
+                <div class="tarjetas" id="naranja"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class=" col-footer">
+                    <h3>Integrantes del grupo</h3>
+                <div class="flex-container datos-grupos ">
+                        
+                        <ul>
+                            <li>Sebastian Leonel Tofano</li>
+                            <li>Emiliano Nicolas Diaz Velar</li>
+                            <li>Francisco Javier Terranova</li>
+                        </ul>
+                </div>
+            </div>
+            <div class=" col-footer">
+                <h3>Opciones</h3>
+                <div class="flex-container menu-inferior">
+                    <ul>
+                        <li><a href="formularioInscripcion.html"><i class="far fa-edit "></i>Inscripción</a></li>
+                        <li><a href="personalizacionInvitacionEvento.html"><i class="far fa-hand-point-right "></i>Invitación</a></li>
+                        <li><a href="resumenEntradasCompradas.html"><i class="far fa-check-circle "></i>Resumen</a></li>
+                        <li><a href="detalleEvento.html"><i class="far fa-calendar-alt "></i>Evento</a></li>
+                        <li><a href="contacto.html"><i class="far fa-envelope"></i>Contacto</a></li>
+                    </ul>      
+                </div>
+            </div>
+            <div class=" col-footer">
+                <h3>Redes Sociales</h3>
+                <div class=" redes ">
+                    <a href="www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+                    <a href="www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

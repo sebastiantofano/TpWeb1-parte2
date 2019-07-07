@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <section class="flex-container" id="header">
+            <div class="flex-item">
+                <div class="logo">
+                    <a href="index.html">LOGO</a> 
+                </div>
+            </div>
+            <div class="flex-item" id="buscador">
+                
+                    <form action="">
+                        <input id="caja-buscador" list="data" type="text" placeholder="Busqueda..."/>
+                        <datalist id="data">
+                                <option value="opcion 1"></option>
+                                <option value="opcion 2"></option>
+                                <option value="opcion 3"></option>
+                                <option value="opcion 4"></option>
+                                <option value="opcion 5"></option>
+                                <option value="opcion 6"></option>  
+                        </datalist>
+                        <i id="icono-lupa" class="fas fa-search "></i>
+                    </form>   
+            </div>
+            <div class="flex-item">
+                <div class="contenedor-icono">
+                    <div id="icono">
+                            <img src="img/glass.png" alt="">
+                    </div>
+                    <div class="notificacion">
+                        5
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+        </section>
+        <!-- <section> -->
+        <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="formularioInscripcion.html">Inscripción
+                        <!-- <i  class="far fa-edit "></i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="personalizacionInvitacionEvento.html">Invitación
+                        <!-- <i class="far fa-hand-point-right "></i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="resumenEntradasCompradas.html">Resumen
+                        <!-- <i class="far fa-check-circle "> </i> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="detalleEvento.html">Evento
+                        <!-- <i class="far fa-calendar-alt "> </i> -->
+                    </a>
+                </li>
+                <li>                    
+                    <a href="contacto.html">Contacto
+                        <!-- <i class="far fa-envelope"></i> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- </section> -->
+    </header>
+    <main>
+        <section class="resumen">
+            <h2>Resumen de entradas compradas</h2>
+            <table>
+              <tr>
+                <th>Fecha</th>
+                <th>Título</th>
+                <th>Estado</th>
+                <th>Precio Unitario</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+              </tr>
+              <tr>
+                <td>20/06/2019</td>
+                <td>Wine Testing Buenos Aires</td>
+                <td>
+                    <button class="btn btn-comprar">
+                        <a href="personalizacionInvitacionEvento.html">PERSONALIZAR</a>
+                    </button>
+                </td>
+                <td>$650.00</td>
+                <td>2</td>
+                <td>$1300.00</td>
+              </tr>
+              <tr>
+                <td>23/10/2019</td>
+                <td>Wine Discovery</td>
+                <td>
+                    <button class="btn btn-comprar">
+                        <a href="personalizacionInvitacionEvento.html">MODIFICAR PERSONALIZACIÓN</a>
+                    </button>
+                </td>
+                <td>$350.00</td>
+                <td>1</td>
+                <td>$350.00</td>
+              </tr>
+              <tr>
+                <td>15/08/2019</td>
+                <td>Baires Wines</td>
+                <td>
+                    <button class="btn btn-comprar">
+                        <a href="personalizacionInvitacionEvento.html">PERSONALIZAR</a>
+                    </button>
+                </td>
+                <td>$400.00</td>
+                <td>3</td>
+                <td>$1200.00</td>
+              </tr>
+              <tr>
+                <td>11/06/2019</td>
+                <td>Time Out Wine Tour</td>
+                <td>
+                    <button class="btn btn-comprar">
+                        <a href="personalizacionInvitacionEvento.html">PERSONALIZAR</a>
+                    </button>                    
+                </td>
+                <td>$500.00</td>
+                <td>2</td>
+                <td>$1000.00</td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td>$3850.00</td>
+              </tr>                            
+            </table>
+            </section>
+            <section class="resumen-botones">
+                <div class="comprar">
+                    <button class="btn btn-comprar">
+                        Finalizar Compra
+                    </button>
+                </div>
+                <div class="comprar">
+                    <button class="btn btn-comprar">
+                        <i class="fas fa-shopping-cart"></i> 
+                        Seguir Comprando
+                    </button>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class=" col-footer">
+                    <h3>Integrantes del grupo</h3>
+                <div class="flex-container datos-grupos ">
+                        
+                        <ul>
+                            <li>Sebastian Leonel Tofano</li>
+                            <li>Emiliano Nicolas Diaz Velar</li>
+                            <li>Francisco Javier Terranova</li>
+                        </ul>
+                </div>
+            </div>
+            <div class=" col-footer">
+                <h3>Opciones</h3>
+                <div class="flex-container menu-inferior">
+                    <ul>
+                        <li><a href="formularioInscripcion.html"><i class="far fa-edit "></i>Inscripción</a></li>
+                        <li><a href="personalizacionInvitacionEvento.html"><i class="far fa-hand-point-right "></i>Invitación</a></li>
+                        <li><a href="resumenEntradasCompradas.html"><i class="far fa-check-circle "></i>Resumen</a></li>
+                        <li><a href="detalleEvento.html"><i class="far fa-calendar-alt "></i>Evento</a></li>
+                        <li><a href="contacto.html"><i class="far fa-envelope"></i>Contacto</a></li>
+                    </ul>      
+                </div>
+            </div>
+            <div class=" col-footer">
+                <h3>Redes Sociales</h3>
+                <div class=" redes ">
+                    <a href="www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+                    <a href="www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
